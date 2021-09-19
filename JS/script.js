@@ -67,10 +67,10 @@ function changeView(href) {
 //функция, меняющая вид страницы в зависимости от размера окна
 function view (x) {
   if (x.matches) { //маленький размер
-    changeView("styleLitl.css");
+    changeView("./CSS/styleLitl.css");
   }    
   else {//большой размер
-    changeView("styleBig.css");
+    changeView("./CSS/styleBig.css");
   }
   }
 
@@ -81,10 +81,10 @@ x.addListener(view)
 //функция, меняющая вид страницы в зависимости от ориентации экрана
 function viewOrient (y) {
   if (y.matches) { //вертикальная ориентация
-    changeView("styleVert.css");
+    changeView("./CSS/styleVert.css");
   }    
   else {//горизонтальная ориентация
-    changeView("styleBig.css");
+    changeView("./CSS/styleBig.css");
     
   }
 }
