@@ -1,0 +1,54 @@
+#palitraDiv {
+  position: absolute;
+}
+
+#palitra {
+  position: absolute;
+  }
+  
+#palBlock {
+  position: absolute;
+  border: solid 2px gray;
+  float: left
+
+  
+}
+#palBlock:hover {
+  border: solid 2px red;
+  transform: scale(1.1);
+  z-index: 2;
+}
+#aktColorDiv {
+  position: absolute;
+
+}
+
+#aktColor {
+  position: absolute;
+  border: solid 2px gray;
+}
+
+#buttons {
+  position: absolute;
+}
+
+button {
+  height: auto;
+
+
+}
+
+#pictures {
+  position: absolute;
+
+}
+#pictures div {
+ border: solid 2px black;
+  
+}
+#pictures div:hover {
+ transform: scale(1.1);
+}
+#aktPic {
+  position: absolute;
+}

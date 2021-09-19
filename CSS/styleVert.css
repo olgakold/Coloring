@@ -1,0 +1,64 @@
+* {margin: 0; padding: 0;} 
+body {
+text-align: center; 
+
+}
+
+#all {
+
+  position: relative;
+  width: 400px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+#aktColorDiv {
+  margin-top: -22px;
+  top: 150px;
+  left: 10px;
+  width: 24%;
+transform: none;
+}
+
+
+#aktColorDiv p{
+  margin-bottom: 0px;
+}
+
+
+#palitraDiv {
+top: 10px;
+  left:10px;
+    transform: none;
+}
+#palitraDiv p{
+  margin-bottom: 0px;
+}
+
+#buttons{
+  top: 220px;
+  left: 0px;
+  width: 100%;
+
+}
+button {
+    margin-top: 2px;
+    width: auto;
+    display: inline-block;
+  height: auto;
+
+}
+#pictures { 
+  left: -95px;
+  top: -35px;
+transform: scale(0.3);
+
+}
+
+
+
+#aktPic{
+  left: 115px;
+  top: 285px;
+    transform: none;
+}
